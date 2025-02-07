@@ -7,7 +7,7 @@ import java.util.Scanner;
  ***** Created by psd24cur on 07/02/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class Q12dArrays {
+public class Q1_2dArrays {
    public static void main(String[] args) {
 
       Scanner scanner = new Scanner(System.in);

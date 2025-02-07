@@ -1,18 +1,19 @@
 package Week2B.TwoDArrays;
 
-import java.util.Arrays;
-
 /****
  ***** Created by psd24cur on 07/02/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class Q22dArrays {
+public class Q2_2dArrays {
    public static void main(String[] args) {
 
-      int[][] tda = new int[][] {{1,2,3}, {4,5,6}, {7,8,9},{1,1,1}};
+      int[][] tda = new int[][] {{1,2,3},
+                                 {4,5,6},
+                                 {7,8,9},
+                                 {1,1,1}};
 
-      System.out.println(Arrays.toString(tda));
-      System.out.println(Arrays.deepToString(tda));
+//      System.out.println(Arrays.toString(tda));
+//      System.out.println(Arrays.deepToString(tda));
 
       for(int i = 0; i < tda.length; i++){
          for(int j = 0; j < tda[i].length ; j++){
