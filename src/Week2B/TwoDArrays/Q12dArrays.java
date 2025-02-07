@@ -1,5 +1,6 @@
-package Week2B;
+package Week2B.TwoDArrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /****
@@ -17,18 +18,21 @@ public class Q12dArrays {
       System.out.print("Please input number of columns: ");
       int columns = scanner.nextInt();
 
+      int[][]array = new int[rows][columns];
 
-      printGrid(rows,columns);
+      printGrid(array);
+      System.out.println(Arrays.deepToString(array));
 
    }//main
 
-   public static void printGrid(int x, int y ) {
-      for (int i = 0; i < x; i++) {
-         for (int j = 0; j < y; j++) {
+
+   public static void printGrid(int [][] array){
+      for (int i = 0; i < array.length; i++) {
+         for (int j = 0; j < array[i].length; j++) {
             System.out.print("- ");
-         }
+         }//for
          System.out.println();
-      }
-   }
+      }//for
+   }//printGrid
 
 }//class
