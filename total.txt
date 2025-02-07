@@ -1,0 +1,3 @@
+Gas: £25.25 Electric: £14.26 Total: £39.51
+Gas: £36.45 Electric: £26.45 Total: £62.90
+Gas: £79.86 Electric: £70.56 Total: £150.42
