@@ -13,7 +13,6 @@ public class Q4_Hash {
       int[] array = {77,23,4,66,99,112,45,56,39,89,10};
 
       Set<Integer> numbers = new HashSet<>();
-
       //populateSet
       for(int i = 0; i < array.length; i++){
          numbers.add(array[i]);
