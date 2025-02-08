@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2af9466-08b0-47cc-b7f0-df5711117c41" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2sO4Xe7NilbDQqyLrt9YEhtQqMB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ElectricityGas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LInkedLists.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedListStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MockSongs.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P1ReaderTryCatch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P2WriterTryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P4StockReport.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PositiveNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Q5FILOLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockReport.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Week1B.Practicals.ElectricityGas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Week1B.Practicals.StockReport.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/psd24cur/OneDrive - Ulster University/COM742&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pcurr/OneDrive - Ulster University/COM742/Week1A/src/Main.java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\src\Week1B\Practicals" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\src\Week1B\Class" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\src\Week1B" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\Week1B" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\src" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\Output" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\Week1B" />
+      <recent name="C:\Users\pcurr\OneDrive - Ulster University\COM742\Week1B\ioFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StackList">
+    <configuration name="LinkedListStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2A.LinkedListStrings" />
+      <module name="COM742" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2A.Q3" />
+      <module name="COM742" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2A.Q4" />
+      <module name="COM742" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q5FILOLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2A.Q5FILOLinkedList" />
+      <module name="COM742" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2A.StackList" />
+      <module name="COM742" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StackList" />
+        <item itemvalue="Application.Q5FILOLinkedList" />
+        <item itemvalue="Application.Q4" />
+        <item itemvalue="Application.Q3" />
+        <item itemvalue="Application.LinkedListStrings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2af9466-08b0-47cc-b7f0-df5711117c41" name="Changes" comment="" />
+      <created>1738313329134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738313329134</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week1B/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week1B/ioFiles/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week1A/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aRevision809/P1ReaderTryCatch.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/MockSongs.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/Q1.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/LinkedListStrings.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/StackList.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/StackArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/StackArray.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/StackArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/Q4.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week2A/Q5FILOLinkedList.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
