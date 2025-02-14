@@ -1,5 +1,6 @@
 package Week3A.SortingAlgorithms.Practicals;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Q8_MergeSort {
@@ -7,14 +8,20 @@ public class Q8_MergeSort {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int [] arrayRandom4 = new int[100];
+        int [] arrayRandom4 = new int[10000];
 
         //populate arrayRandom
         for(int i = 0; i < arrayRandom4.length; i++){
-            arrayRandom4[i] = random.nextInt(100)+1;
+            arrayRandom4[i] = random.nextInt(10000)+1;
         }//for
 
         //Quadratic Time Complexity/ Bubble Sort, Selection Sort, Insertion Sort
+
+        long SortTime = System.nanoTime();
+        Arrays.sort(arrayRandom4);
+        long SortTimeEnd = System.nanoTime();
+        long SortTotal = SortTimeEnd - SortTime;
+        System.out.println(SortTotal);
 
 
         //Log-Linear Time Complexity/ Merge Sort+
