@@ -72,7 +72,7 @@ public class ReadAndWrite {
          BufferedWriter bw = new BufferedWriter(fw);
          PrintWriter pw = new PrintWriter(bw);
 
-         for(int i = 1; i <= 100000; i++){
+         for(int i = 1; i <= 100; i++){
             pw.println(i);
          }//for
          bw.close();
