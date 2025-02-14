@@ -9,9 +9,7 @@ public class ReadAndWrite {
    public static void main(String[] args) {
 
       writeNumbers();
-
-      int[] numbersIn = readNumbers("100search.txt");
-
+      int[] numbersIn = readNumbers("100.txt");
       System.out.println(Arrays.toString(numbersIn));
 
    }//main
@@ -45,7 +43,7 @@ public class ReadAndWrite {
       return array;
    }//readNumbers
 
-   public static void generateRandom(){
+   public static int [] generateRandom(){
       int [] num = new int[100];
       int min = 1;
       int max = 100;
@@ -53,6 +51,19 @@ public class ReadAndWrite {
       for(int i = 0; i < num.length; i++){
          num[i] = (int)(Math.random() * (max - min + 1) + min);
       }//for
+      return num;
+   }//generateRandom
+
+
+   public static int [] generateRandom(int size){
+      int [] num = new int[size];
+      int min = 1;
+      int max = size;
+
+      for(int i = 0; i < num.length; i++){
+         num[i] = (int)(Math.random() * (max - min + 1) + min);
+      }//for
+      return num;
    }//generateRandom
 
    public static void writeNumbers(){
@@ -61,8 +72,27 @@ public class ReadAndWrite {
          BufferedWriter bw = new BufferedWriter(fw);
          PrintWriter pw = new PrintWriter(bw);
 
-         for(int i = 1; i <=100; i++){
+         for(int i = 1; i <= 100000; i++){
             pw.println(i);
+         }//for
+         bw.close();
+         pw.close();
+         fw.close();
+      }//try
+      catch (IOException e){
+         System.out.println(e);
+      }//catch
+   }//writeNumbers
+
+
+   public static void writeNumbers(String txtFile, int[] array){
+      try{
+         FileWriter fw = new FileWriter(txtFile);
+         BufferedWriter bw = new BufferedWriter(fw);
+         PrintWriter pw = new PrintWriter(bw);
+
+         for(int i = 0; i < array.length; i++){
+            pw.println(array[i]);
          }//for
          bw.close();
          pw.close();
