@@ -6,11 +6,20 @@ public class P4_WriteFileAverage {
 
     public static void main(String[] args) {
 
-//        int fileSize = 1000;
-//        writeToFile("Comparing.txt", fileSize);
+        int fileSize = 1000;
+        writeToFile("Comparing.txt", fileSize);
 
+        long CurrentTime = System.nanoTime();
         System.out.println(whileAverage("Comparing.txt"));
+        long CurrentTimeEnd = System.nanoTime();
+        long Totaltime = CurrentTimeEnd - CurrentTime;
+        System.out.println("Total time: " + Totaltime);
+
+        CurrentTime = System.nanoTime();
         System.out.println(forAverage("Comparing.txt", 1000));
+        CurrentTimeEnd = System.nanoTime();
+        Totaltime = CurrentTimeEnd - CurrentTime;
+        System.out.println("Total time2: " + Totaltime);
 
 
 
@@ -18,7 +27,6 @@ public class P4_WriteFileAverage {
 
     public static int whileAverage(String filename){
         int total = 0, count = 0;
-
         try {
             FileReader fr = new FileReader(filename);
             BufferedReader br = new BufferedReader(fr);
@@ -37,8 +45,9 @@ public class P4_WriteFileAverage {
         catch (IOException e){
             System.out.println(e);
         }
-        int average = total / count;
 
+
+        int average = total / count;
         return average;
     }//while
 
