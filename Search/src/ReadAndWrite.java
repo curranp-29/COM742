@@ -11,7 +11,6 @@ public class ReadAndWrite {
       writeNumbers();
       int[] numbersIn = readNumbers("100.txt");
       System.out.println(Arrays.toString(numbersIn));
-
    }//main
 
    public static int [] readNumbers (String filename){
