@@ -1,4 +1,4 @@
-package Week1A.JavaAdvanced;
+package Week1A_Recap.JavaAdvanced;
 import java.util.Scanner;
 
 /****

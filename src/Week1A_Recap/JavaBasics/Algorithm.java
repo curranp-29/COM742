@@ -1,4 +1,4 @@
-package Week1A.JavaBasics;
+package Week1A_Recap.JavaBasics;
 
 /****
  ***** Created by pcurr on 04/11/2024

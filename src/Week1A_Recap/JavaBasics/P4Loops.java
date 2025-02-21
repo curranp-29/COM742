@@ -1,4 +1,4 @@
-package Week1A.JavaBasics;
+package Week1A_Recap.JavaBasics;
 
 public class P4Loops {
 
