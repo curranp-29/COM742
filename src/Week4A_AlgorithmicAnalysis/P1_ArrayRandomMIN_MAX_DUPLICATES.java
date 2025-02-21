@@ -2,7 +2,7 @@ package Week4A_AlgorithmicAnalysis;
 import java.util.Arrays;
 import java.util.Random;
 
-public class P1_ArrayRandom {
+public class P1_ArrayRandomMIN_MAX_DUPLICATES {
 
     public static void main(String[] args) {
 

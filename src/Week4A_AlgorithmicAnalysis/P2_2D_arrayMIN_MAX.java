@@ -3,7 +3,7 @@ package Week4A_AlgorithmicAnalysis;
 import java.util.Arrays;
 import java.util.Random;
 
-public class P2_2D_array {
+public class P2_2D_arrayMIN_MAX {
 
     public static void main(String[] args) {
 
