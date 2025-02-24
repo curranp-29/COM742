@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/week3B_Search/week3B_Search.iml" filepath="$PROJECT_DIR$/week3B_Search/week3B_Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4B_Recursion/week4B_Recursion.iml" filepath="$PROJECT_DIR$/week4B_Recursion/week4B_Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/week5A_AlgorithmsTesting/week5A_AlgorithmsTesting.iml" filepath="$PROJECT_DIR$/week5A_AlgorithmsTesting/week5A_AlgorithmsTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zTestPrograms/zTestPrograms.iml" filepath="$PROJECT_DIR$/zTestPrograms/zTestPrograms.iml" />
     </modules>
   </component>
 </project>

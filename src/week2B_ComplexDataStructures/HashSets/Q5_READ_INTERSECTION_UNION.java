@@ -1,4 +1,4 @@
-package week2B_ComplexDataStructures.Hash;
+package week2B_ComplexDataStructures.HashSets;
 
 import java.io.*;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import java.util.Set;
  ***** Created by pcurr on 08/02/2025
  ***** UPDATE PROGRAM DESCRIPTION
  *****/
-public class Q5_Hash {
+public class Q5_READ_INTERSECTION_UNION {
    public static void main(String[] args) {
 
       try{

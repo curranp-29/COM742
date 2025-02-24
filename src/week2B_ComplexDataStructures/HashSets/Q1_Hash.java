@@ -1,4 +1,4 @@
-package week2B_ComplexDataStructures.Hash;
+package week2B_ComplexDataStructures.HashSets;
 
 import java.util.HashSet;
 import java.util.Iterator;
