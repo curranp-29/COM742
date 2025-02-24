@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 public class findPairs {
@@ -22,5 +23,27 @@ public class findPairs {
         }//for
         System.out.println(pairs);
     }//findPairs
+
+
+    public static void findMode(int[] array){
+        HashSet<Integer> pairs = new HashSet<>();
+        int mode = 0;
+        int maxCount = 0;
+
+        for(int i = 0; i < array.length; i++){
+            int count = 0;
+            for(int j = i + 1; j < array.length; j++){
+                if(array[i] == array[j]) {
+                count++;
+                pairs.add(array[i]);
+                }//if
+                if (count > maxCount){
+                    maxCount = count;
+                    mode = array[i];
+                }
+            }
+            System.out.println("First mode: " + mode);
+        }
+    }
 
 }//class

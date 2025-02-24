@@ -1,3 +1,3 @@
-public class InterfacingPractice implements MyMathInterface{
+public class InterfacingPractice extends MyMath implements MyMathInterface{
 
 }
