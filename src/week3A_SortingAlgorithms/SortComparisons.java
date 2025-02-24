@@ -1,4 +1,4 @@
-package Week3A.SortingAlgorithms;
+package week3A_SortingAlgorithms;
 
 public class SortComparisons {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Week3A.SortingAlgorithms;
+package week3A_SortingAlgorithms;
 
 import java.util.Arrays;
 import java.util.Random;

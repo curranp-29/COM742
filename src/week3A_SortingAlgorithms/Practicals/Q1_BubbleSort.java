@@ -1,4 +1,4 @@
-package Week3A.SortingAlgorithms.Practicals;
+package week3A_SortingAlgorithms.Practicals;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

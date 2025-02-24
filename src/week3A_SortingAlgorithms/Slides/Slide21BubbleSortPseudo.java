@@ -1,4 +1,4 @@
-package Week3A.SortingAlgorithms.Slides;
+package week3A_SortingAlgorithms.Slides;
 
 public class Slide21BubbleSortPseudo {
 
