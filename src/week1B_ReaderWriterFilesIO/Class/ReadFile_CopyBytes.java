@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class CopyBytes {
+public class ReadFile_CopyBytes {
    public static void main(String[] args) throws IOException {
       FileInputStream in = null;
       FileOutputStream out = null;

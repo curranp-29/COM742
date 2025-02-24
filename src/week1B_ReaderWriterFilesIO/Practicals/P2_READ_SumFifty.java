@@ -1,4 +1,4 @@
-package week1B_ReaderWriterFilesIO.Class;
+package week1B_ReaderWriterFilesIO.Practicals;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,16 +8,17 @@ import java.io.IOException;
  ***** Created by psd24cur on 31/01/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class CopyData {
+public class P2_READ_SumFifty {
    public static void main(String[] args) throws IOException {
 
       int total = 0;
 
       try{
-         FileReader fr = new FileReader("data.txt");
+         FileReader fr = new FileReader("fifty.txt");
          BufferedReader br = new BufferedReader(fr);
 
          String c = br.readLine();
+
          while (c != null){
             total+= Integer.parseInt(c);
             c = br.readLine();

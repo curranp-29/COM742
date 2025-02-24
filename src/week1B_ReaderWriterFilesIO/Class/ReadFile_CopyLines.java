@@ -5,7 +5,7 @@ package week1B_ReaderWriterFilesIO.Class; /****
 
 import java.io.*;
 
-public class CopyLines {
+public class ReadFile_CopyLines {
       public static void main(String[] args) throws IOException {
          BufferedReader inputStream = null;
          PrintWriter outputStream = null;

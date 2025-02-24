@@ -6,7 +6,7 @@ import java.io.*;
  ***** Created by psd24cur on 31/01/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class P3PositiveNumbers {
+public class P3_READ_WRITE_PositiveNumbers {
     public static void main(String[] args) throws IOException {
 
         System.out.println("Total Count: " + countTotalPositiveValues("positivenumbers.txt"));

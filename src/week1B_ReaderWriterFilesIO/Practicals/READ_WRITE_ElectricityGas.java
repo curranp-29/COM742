@@ -7,7 +7,7 @@ import java.text.DecimalFormat;
  ***** Created by psd24cur on 31/01/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class ElectricityGas {
+public class READ_WRITE_ElectricityGas {
    public static void main(String[] args) throws IOException {
 
       DecimalFormat df = new DecimalFormat(".00");

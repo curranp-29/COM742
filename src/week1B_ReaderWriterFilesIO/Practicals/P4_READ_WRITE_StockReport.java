@@ -9,7 +9,7 @@ import java.util.Scanner;
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
 
-public class P4StockReport {
+public class P4_READ_WRITE_StockReport {
 
    public static void main(String[] args) throws IOException {
 

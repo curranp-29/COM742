@@ -9,7 +9,7 @@ import java.io.PrintWriter;
  ***** Created by psd24cur on 31/01/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class StoreSequenceNumbers {
+public class WriteFile_StoreSequenceNumbers {
    public static void main(String[] args) throws IOException {
 
       FileWriter fw = new FileWriter("test.txt");

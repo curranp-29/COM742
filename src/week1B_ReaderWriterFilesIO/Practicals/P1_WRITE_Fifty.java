@@ -1,4 +1,4 @@
-package week1B_ReaderWriterFilesIO.Class;
+package week1B_ReaderWriterFilesIO.Practicals;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -9,12 +9,13 @@ import java.io.PrintWriter;
  ***** Created by psd24cur on 31/01/2025
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
-public class ReusableMethod {
+public class P1_WRITE_Fifty {
 
    public static void main(String[] args) throws IOException {
 
-      int[] data = {23, 34, 27, 89, 45, 67};
-      writeToFile(data, "number.txt");
+      final int MAX = 50;
+      int[] data = new int[MAX];
+      writeToFile(data, "fifty.txt");
    }
 
    public static void writeToFile(int[] nums, String fname) throws IOException {
@@ -26,6 +27,7 @@ public class ReusableMethod {
          PrintWriter pw = new PrintWriter(bw);
 
          for (int i = 0; i < nums.length; i++) {
+            nums[i] = i+1;
             pw.println(nums[i]);
          }//for
 
