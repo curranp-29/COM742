@@ -1,9 +1,9 @@
 
-public class Main implements MyMathInterface{
+public class Main  {
 
     public static void main (String[] args){
 
-        //        System.out.print("Main: ");
+//        System.out.print("Main: ");
 //        squared(2);
 //        System.out.println("Main: " + cubed(2));
 //        MyMathInterface.squared(2);
