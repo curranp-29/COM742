@@ -9,7 +9,7 @@ public class findPairs {
 
         findPairs(array);
 
-    }
+    }//main
 
     public static void findPairs(int[] arr) {
         List<Integer> pairs = new ArrayList<>();
@@ -17,10 +17,10 @@ public class findPairs {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     pairs.add(arr[i]);
-                }
-            }
-        }
+                }//if
+            }//for
+        }//for
         System.out.println(pairs);
-    }
+    }//findPairs
 
-}
+}//class
