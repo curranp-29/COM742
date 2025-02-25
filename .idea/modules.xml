@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/COM742.iml" filepath="$PROJECT_DIR$/COM742.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week1B/ioFiles/ioFiles.iml" filepath="$PROJECT_DIR$/Week1B/ioFiles/ioFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1_JavaIO/week1_JavaIO.iml" filepath="$PROJECT_DIR$/week1_JavaIO/week1_JavaIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3B_Search/week3B_Search.iml" filepath="$PROJECT_DIR$/week3B_Search/week3B_Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4B_Recursion/week4B_Recursion.iml" filepath="$PROJECT_DIR$/week4B_Recursion/week4B_Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/week5A_AlgorithmsTesting/week5A_AlgorithmsTesting.iml" filepath="$PROJECT_DIR$/week5A_AlgorithmsTesting/week5A_AlgorithmsTesting.iml" />
