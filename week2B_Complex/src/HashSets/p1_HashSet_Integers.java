@@ -8,7 +8,7 @@ import java.util.Set;
  ***** Created by pcurr on 27/02/2025
  ***** UPDATE PROGRAM DESCRIPTION
  *****/
-public class p1_HashSet {
+public class p1_HashSet_Integers {
    public static void main(String[] args) {
 
        Set<Integer> valuesA = new HashSet<>();
