@@ -1,3 +1,5 @@
+package Misc;
+
 public class Print {
     public static void print(int x){
         System.out.println(x);
