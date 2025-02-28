@@ -1,4 +1,6 @@
-public class TestInterface implements MyMathInterface{
+import Misc.MyMathInterface;
+
+public class TestInterface implements MyMathInterface {
     @Override
     public void squared(int x) {
         System.out.println("Interface: " + x * x);

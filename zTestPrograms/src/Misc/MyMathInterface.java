@@ -1,3 +1,5 @@
+package Misc;
+
 public interface MyMathInterface {
 
     public default void squared(int x){

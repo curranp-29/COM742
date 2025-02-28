@@ -1,3 +1,5 @@
+package Misc;
+
 import java.util.Scanner;
 
 public class Person {
@@ -46,7 +48,7 @@ public class Person {
         else{
             throw new IllegalArgumentException("Age must be a positive value");
         }//else
-    }//Person
+    }//Misc.Person
 
     //Public getter method for name field
     public String getName(){
@@ -60,7 +62,7 @@ public class Person {
     // Public setter method for the name field
     public void setName(String name){
         this.name = name;
-    }//setName
+    }//se tName
 
     // Public setter method for the age field
     public void setAge(int age){

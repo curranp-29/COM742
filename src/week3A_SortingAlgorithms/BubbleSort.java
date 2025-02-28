@@ -10,7 +10,7 @@ public class BubbleSort {
         System.out.println(Arrays.toString(numbers));
 
         bubbleSort(numbers);
-        bubbleSortOptomised(numbersCopy);
+        bubbleSortOptimised(numbersCopy);
 
     }
 
@@ -35,7 +35,7 @@ public class BubbleSort {
         System.out.println("ComparisonsBS= " + comparisonBS);
     }
 
-    public static void bubbleSortOptomised(int[] data) {
+    public static void bubbleSortOptimised(int[] data) {
         int swapBS1 = 0, comparisonBS1 = 0;
         boolean swapped = true;
 

@@ -1,3 +1,5 @@
+package Misc;
+
 public class MyMath extends Print {
 
     public static int squared(int x){
