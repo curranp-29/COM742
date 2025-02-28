@@ -13,9 +13,7 @@ import java.util.Random;
  *****/
 public class Arrays_1D_2D {
    public static void main(String[] args) {
-
-
-
+      
 
    }//main
 

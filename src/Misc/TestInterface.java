@@ -1,3 +1,5 @@
+package Misc;
+
 import Misc.MyMathInterface;
 
 public class TestInterface implements MyMathInterface {
