@@ -32,7 +32,6 @@ public class p4_print2D {
       }
    }
    public static int sum2DArray(int[][] a) {
-
       int sum = 0;
       for(int r = 0; r < a.length; r++){
          for(int c = 0; c < a[0].length; c++){
