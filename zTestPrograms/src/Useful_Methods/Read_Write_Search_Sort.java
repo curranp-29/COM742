@@ -19,6 +19,8 @@ public class Read_Write_Search_Sort {
       int[] array = convertListArray(number);
       System.out.println(Arrays.toString(array));
 
+      long CurrentTime = System.nanoTime();
+
       //insertion sort
       insertionSort(array);
 //      System.out.println(Arrays.toString(array));
@@ -26,6 +28,15 @@ public class Read_Write_Search_Sort {
       //bubble sort
       bubbleSortOptimised(array);
 //      System.out.println(Arrays.toString(array));
+
+      //selection sort
+      selectionSort(array);
+//      System.out.println(Arrays.toString(array));
+
+
+      long CurrentTimeEnd = System.nanoTime();
+      long Totaltime = CurrentTimeEnd - CurrentTime;
+      System.out.println("Total time (ns): " + Totaltime);
 
       int key = 5;
       //linear search
@@ -207,6 +218,25 @@ public class Read_Write_Search_Sort {
          data[in] = temp;
       }
       System.out.println("swapsIS=" + swapIS + ", CopiesIS= " + copies);
+   }
+
+   public static void selectionSort(int data[]) {
+      int in, out, min;
+      int comparisonSS = 0, swapSS = 0;
+      for (out=0; out < data.length-1; out++) {
+         min = out;
+         for (in = out+1; in < data.length; in++) {
+            comparisonSS++;
+            if (data[in] < data[min]) {
+               min = in;
+               swapSS++;          // new minimum
+            }
+         }
+         int tmp = data[out];     // swap items
+         data[out] = data[min];   //
+         data[min] = tmp;       //
+      }
+      System.out.println("swapsSS=" + swapSS + ", ComparisonsSS= " + comparisonSS);
    }
 
 }//class

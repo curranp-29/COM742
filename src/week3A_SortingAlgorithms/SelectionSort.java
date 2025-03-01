@@ -30,7 +30,6 @@ public class SelectionSort {
             data[out] = data[min];   //
             data[min] = tmp;       //
         }
-        System.out.println("swapsSS=" + swapSS);
-        System.out.println("ComparisonsSS= " + comparisonSS);
+        System.out.println("swapsSS=" + swapSS + ", ComparisonsSS= " + comparisonSS);
     }
 }

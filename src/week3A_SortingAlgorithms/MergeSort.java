@@ -13,13 +13,10 @@ public class MergeSort {
 
         //used to get the current time in NS
         long CurrentTime = System.nanoTime();
-
-
         //MERGE SORT
         mergeSort(numbers, 0, numbers.length - 1);
 
         long CurrentTimeEnd = System.nanoTime();
-
         long Totaltime = CurrentTimeEnd - CurrentTime;
 
 
