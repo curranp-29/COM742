@@ -23,7 +23,14 @@ public class Read_Write_Search_Sort {
 
       //insertion sort
       insertionSort(array);
+
 //      System.out.println(Arrays.toString(array));
+
+      //findMin
+      System.out.println("Min element: " + findMin(array));
+
+      //findMax
+      System.out.println("Max element: " + findMax(array));
 
       //bubble sort
       bubbleSortOptimised(array);
@@ -40,12 +47,12 @@ public class Read_Write_Search_Sort {
 
       int key = 5;
       //linear search
-      linearSearch(array, key);
       System.out.println("Key " + key + " found at position: " + linearSearch(array, 5));
 
       //print to file
       writeToFile(array, "testRandoms.txt");
    }//main
+
 
    public static ArrayList<Integer> readNumbersList(String filename) {
       ArrayList<Integer> elementsList = new ArrayList<>();
@@ -238,5 +245,26 @@ public class Read_Write_Search_Sort {
       }
       System.out.println("swapsSS=" + swapSS + ", ComparisonsSS= " + comparisonSS);
    }
+
+   public static int findMin(int [] num){
+      int min = num[0];
+
+      for(int i = 0; i < num.length; i++){
+         if(num[i] < min){
+            min = num[i];
+         }//if
+      }//for
+      return min;
+   }//findMin
+
+   public static int findMax(int [] num){
+      int max = num[0];
+      for(int i = 0; i < num.length; i++){
+         if(num[i] > max){
+            max = num[i];
+         }//if
+      }//for
+      return max;
+   }//findMin
 
 }//class
