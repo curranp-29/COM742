@@ -6,8 +6,18 @@ public class TestRecursionVsLinear {
    public static void main(String[] args) {
 
       int n = 8;
+
+      long CurrentTime = System.nanoTime();
       System.out.println(n + "! = " + factorialLinear(n));
+      long CurrentTimeEnd = System.nanoTime();
+      long Totaltime = CurrentTimeEnd - CurrentTime;
+      System.out.println("Total time (ns): " + Totaltime);
+
+      CurrentTime = System.nanoTime();
       System.out.println(n + "! = " + factorialRecursion(n));
+      CurrentTimeEnd = System.nanoTime();
+      Totaltime = CurrentTimeEnd - CurrentTime;
+      System.out.println("Total time (ns): " + Totaltime);
 
 
    }//main
