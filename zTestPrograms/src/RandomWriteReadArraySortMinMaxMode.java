@@ -23,14 +23,17 @@ public class RandomWriteReadArraySortMinMaxMode {
       //convert to array
       int[] numbersToSort = convertListArray(number);
 
-      //insertionSort
-      insertionSort(numbersToSort);
+      //insertionSort and Captures SwapsCopies
+      int[]swapsCopies = insertionSort(numbersToSort);
 
-      //findMin//findMax
-      findMaxMin(numbersToSort);
+      //findMinMax
+      int[]minMax = findMaxMin(numbersToSort);
 
       //findMode
-      findMode(numbersToSort);
+      int mode  = findMode(numbersToSort);
+
+      //writeMinMaxMode to file
+      writeStatsToFile(numbers, "createdRandomNums.txt", minMax[0], minMax[1], mode, swapsCopies[0], swapsCopies[1]);
 
    }//main
 
@@ -53,6 +56,7 @@ public class RandomWriteReadArraySortMinMaxMode {
          BufferedWriter bw = new BufferedWriter(fw);
          PrintWriter pw = new PrintWriter(bw);
 
+
          for(int i = 0; i < data.length; i++) {
             pw.println(data[i]);
          }//for
@@ -65,6 +69,33 @@ public class RandomWriteReadArraySortMinMaxMode {
          System.out.println(e);
       }//catch
    }//writeToFile
+
+
+   public static void writeStatsToFile(int[] data, String filename, int  min, int max, int mode, int swaps, int copies) throws IOException {
+      try{
+         FileWriter fw = new FileWriter(filename);
+         BufferedWriter bw = new BufferedWriter(fw);
+         PrintWriter pw = new PrintWriter(bw);
+
+         pw.println("Max value: " + max);
+         pw.println("Min value: " + min);
+         pw.println("Mode: " + mode);
+         pw.println("Swaps: " + swaps);
+         pw.println("Copies: " + copies);
+
+         for(int i = 0; i < data.length; i++) {
+            pw.println(data[i]);
+         }//for
+
+         pw.close();
+         bw.close();
+         fw.close();
+      }//try
+      catch (IOException e){
+         System.out.println(e);
+      }//catch
+   }//writeToFile
+
 
 
 
@@ -104,7 +135,7 @@ public class RandomWriteReadArraySortMinMaxMode {
    }//convertListArray
 
 
-   public static void insertionSort( int data[] ) {
+   public static int[]  insertionSort( int data[] ) {
       int in, out, temp;
       int copies = 0, swapIS = 0;
       for (out=1; out < data.length; out++) {
@@ -117,9 +148,10 @@ public class RandomWriteReadArraySortMinMaxMode {
          data[in] = temp;
       }
       System.out.println("swapsIS=" + swapIS + ", CopiesIS= " + copies);
+      return new int[] {swapIS, copies};
    }
 
-   public static void findMaxMin(int[] numbers){
+   public static int[] findMaxMin(int[] numbers){
       int max = numbers [0];
       int min = numbers [0];
 
@@ -133,6 +165,7 @@ public class RandomWriteReadArraySortMinMaxMode {
       }//for
       System.out.println("Max value in array is: " + max);
       System.out.println("Min value in array is: " + min);
+      return new int[]{min,max};
    }//findMax
 
    // Method to find the mode in an array

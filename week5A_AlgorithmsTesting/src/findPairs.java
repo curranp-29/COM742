@@ -9,6 +9,7 @@ public class findPairs {
         int[] array = {1,2,3,4,4,5,6,7,7,8,9};
 
         findPairs(array);
+        findMode(array);
 
     }//main
 
@@ -42,8 +43,8 @@ public class findPairs {
                     mode = array[i];
                 }
             }
-            System.out.println("First mode: " + mode);
         }
+        System.out.println("First mode: " + mode);
     }
 
 }//class
