@@ -212,6 +212,10 @@ public class Read_Write_Search_Sort {
       return -1;
    }//LinearSearch
 
+
+
+
+
    public static void insertionSort( int data[] ) {
       int in, out, temp;
       int copies = 0, swapIS = 0;
@@ -266,5 +270,28 @@ public class Read_Write_Search_Sort {
       }//for
       return max;
    }//findMin
+
+   public static int binarySearch( int[] array, int key) {
+      int comparisons = 0;
+      int left = 0, right = array.length - 1;//left and right values
+
+      while (left <= right) {
+         int pivot = (left + right) / 2;//pivot
+         if (key == array[pivot]) {
+            System.out.println("Comparisons: " + comparisons);
+            return pivot;//found
+         }//if
+         else if (key > array[pivot]) {
+            left = pivot + 1;
+            comparisons++;
+         }//else if
+         else {
+            right = pivot - 1;
+            comparisons++;
+         }//else
+      }
+      System.out.println("Comparisons: " + comparisons);
+      return -1;//not found so return -1
+   }
 
 }//class

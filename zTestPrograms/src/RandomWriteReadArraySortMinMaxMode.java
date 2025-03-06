@@ -32,6 +32,20 @@ public class RandomWriteReadArraySortMinMaxMode {
       //findMode
       int mode  = findMode(numbersToSort);
 
+      //BINARY SEARCH
+      int key = 25;
+      //binarySearch
+      int found = binarySearch(numbersToSort, key);
+
+      //FOUND?
+      if(found != -1){
+         System.out.println("Key found at position: " + key);
+      }//if
+      else{
+         System.out.println("Key not found in list");
+      }//else
+
+
       //writeMinMaxMode to file
       writeStatsToFile(numbers, "createdRandomNums.txt", minMax[0], minMax[1], mode, swapsCopies[0], swapsCopies[1]);
 
@@ -190,6 +204,30 @@ public class RandomWriteReadArraySortMinMaxMode {
       System.out.println("Mode: " + mode);
       return mode;
    }//findMode
+
+   public static int binarySearch( int[] array, int key) {
+      int comparisons = 0;
+      int left = 0, right = array.length - 1;//left and right values
+
+      while (left <= right) {
+         int pivot = (left + right) / 2;//pivot
+         if (key == array[pivot]) {
+            System.out.println("Comparisons: " + comparisons);
+            return pivot;//found
+         }//if
+         else if (key > array[pivot]) {
+            left = pivot + 1;
+            comparisons++;
+         }//else if
+         else {
+            right = pivot - 1;
+            comparisons++;
+         }//else
+      }
+      System.out.println("Comparisons: " + comparisons);
+      return -1;//not found so return -1
+   }
+
 
 
 }//class
