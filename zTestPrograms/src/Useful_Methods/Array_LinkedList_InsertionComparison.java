@@ -13,7 +13,6 @@ public class Array_LinkedList_InsertionComparison {
    public static void main(String[] args) throws IOException {
 
       int[] listArray = new int [20];
-
       LinkedList<Integer> listLink = new LinkedList<>();
 
       try {

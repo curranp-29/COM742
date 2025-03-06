@@ -1,5 +1,3 @@
-package Useful_Methods;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +7,7 @@ import java.util.Arrays;
  ***** UPDATE PROGRAM DESCRIPTION HERE
  *****/
 
-public class Read_Write_Search_Sort {
+public class Read_Write_Search_Sort_Time_INT {
    public static void main(String[] args) throws IOException{
 
       //declare, read and populate NUMBERS

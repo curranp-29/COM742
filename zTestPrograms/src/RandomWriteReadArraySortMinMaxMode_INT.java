@@ -5,7 +5,7 @@ import java.util.*;
  ***** Created by pcurr on 05/03/2025
  ***** UPDATE PROGRAM DESCRIPTION
  *****/
-public class RandomWriteReadArraySortMinMaxMode {
+public class RandomWriteReadArraySortMinMaxMode_INT {
    public static void main(String[] args) throws IOException {
 
       //create array of random nums

@@ -29,8 +29,6 @@ public class Arrays_1D_2D {
       System.out.println("Sum of matrix: " + sumMatrix(array2d));
       printArray(array2d);
 
-
-
    }//main
 
    //ARRAY

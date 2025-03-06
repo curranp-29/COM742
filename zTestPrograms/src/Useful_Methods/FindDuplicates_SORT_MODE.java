@@ -2,7 +2,7 @@ package Useful_Methods;
 
 import java.util.*;
 
-public class Duplicates_SORT_MODE {
+public class FindDuplicates_SORT_MODE {
 
     public static void main(String[] args) {
 
@@ -17,6 +17,7 @@ public class Duplicates_SORT_MODE {
         // Sort list
         System.out.println("Original list: " + list);
         bubbleSort(list);
+
 //        sortList(list);
         System.out.println("Sorted list: " + list);
 

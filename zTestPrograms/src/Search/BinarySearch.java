@@ -52,4 +52,23 @@ public class BinarySearch {
 
    }//binarySearch
 
+
+
+   public static int binarySearch(String[] items, String key){
+      int left = 0, right = items.length - 1;
+
+      while (left <= right){
+         int pivot = (left + right)/2;
+         if (key.compareTo(items[pivot]) == 0) {
+            return pivot;//found
+         } else if (key.compareTo(items[pivot]) > 0){
+               left = pivot +1; //searchRight
+            }//else
+            else{
+               right = pivot -1;//search left
+            }
+         }
+      return -1;//not found
+      }//binarySearch
+
 }//class

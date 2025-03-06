@@ -3,7 +3,7 @@ package Useful_Methods;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Bubble_Selection_Insertion {
+public class Bubble_Selection_Insertion_ASSIGNMENT {
 
     public static void main(String[] args) {
 
