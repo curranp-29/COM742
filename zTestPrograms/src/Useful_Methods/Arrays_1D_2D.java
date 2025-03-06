@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -13,7 +14,22 @@ import java.util.Random;
  *****/
 public class Arrays_1D_2D {
    public static void main(String[] args) {
-      
+
+      //1D
+      int [] array1d = generateRandom();
+      System.out.println(Arrays.toString(array1d));
+      calculateAverage(array1d);
+      findMaxMin(array1d);
+      findValue(array1d, 5);
+      sumValues(array1d);
+      reverseArrayNonSequential(array1d);
+
+      //2D
+      int [][] array2d =  generateRandom(100);
+      System.out.println("Sum of matrix: " + sumMatrix(array2d));
+      printArray(array2d);
+
+
 
    }//main
 
@@ -102,14 +118,25 @@ public class Arrays_1D_2D {
 
 
    //2D ARRAY
+   public static int [][] generateRandom(int size){
+      Random rand = new Random();
+      int [][] num = new int[size][size];
+      for(int i = 0; i < num.length; i++){
+         for(int j = 0; j < num[0].length; j++)
+            num[i][j] = rand.nextInt(size)+ 1;
+      }//for
+      return num;
+   }//generateRandom
+
    private static void fillArray(int [][] array){
-      //populate seats with A to represent no booking
+     //fill2D array
       for (int row = 0; row < array.length; row++){
          for (int column = 0; column < array[row].length; column++){
             array[row][column] = row;
          }//for
       }//for
    }//fillArray
+
    private static void fillArray(String [][] array){
       //populate seats with A to represent no booking
       for (int row = 0; row < array.length; row++){
